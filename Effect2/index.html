@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Effect 2</title>
+    <link rel="stylesheet" href="/Effect2/style.css">
+</head>
+<body>
+    <div class="text_div"><h1>Hover Me</h1></div>
+    
+    <div class="cursor"></div>
+    
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+        })
+    </script>
+</body>
+</html>
