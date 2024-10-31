@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    cursor:none; 
+    background-image: linear-gradient(135deg,#7b4397,#dc2430);
+  }
+
+  /*#2C3E50 , black*/
+  
+  .text_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+  }
+
+  h1{
+    color: white;
+    font-family:poppins;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: fixed;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  .cursor_dot{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    transition-timing-function: ease-out;
+  }
