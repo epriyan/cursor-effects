@@ -25,3 +25,4 @@ https://github.com/user-attachments/assets/6c70d50b-5f25-48d4-b36c-b59549d7a33e
 
 https://github.com/user-attachments/assets/005320c5-aa3d-4e12-be70-83c8df0d70b2
 
+<h3>🔔Stay updated for more cursor effects!</h3>
